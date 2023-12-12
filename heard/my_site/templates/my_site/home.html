@@ -1,0 +1,31 @@
+{% extends "my_site/base.html" %}
+{% block content %}
+    <center><h1>Расчёт риска сердечно-сосудистых заболеваний</h1></center>
+    <div class="content">
+        <form action="" name="data_for_predict">
+            <p>Дата рождения</p>
+            <input type="date" name="age">
+             <p>Вес</p>
+            <input type="number" name="weight">
+             <p>Систолическое АД</p>
+            <input type="number" name="ap_hi">
+             <p>Диастолическое АД</p>
+            <input type="number" name="ap_lo">
+             <p>Уровень холестерина</p>
+            <select name="cholesterol" required>
+                <option selected value="1">В норме</option>,
+                <option value="2">Выше нормы</option>
+                <option value="3">Значительно выше нормы</option>
+            </select>
+             <p>Уровень глюкозы</p>
+            <select name="gluc" required>
+                <option selected value="1">В норме</option>,
+                <option value="2">Выше нормы</option>
+                <option value="3">Значительно выше нормы</option>
+            </select>
+            <button class="shadow__btn" type="submit">
+                Расчитать риск
+            </button>
+        </form>
+    </div>
+{% endblock %}

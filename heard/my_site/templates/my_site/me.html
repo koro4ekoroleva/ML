@@ -1,0 +1,9 @@
+{% extends "my_site/base.html" %}
+{%load static%}
+{% block content %}
+<div class="content">
+<center><h1>Это я</h1>
+    <img class="me_img" src="{% static '/my_site/img/me.jpg' %}" alt="Я" title="Я у мамы программист (⌐■‿■)">
+</center>
+</div>
+{% endblock %}
