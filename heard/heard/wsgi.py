@@ -1,3 +1,4 @@
+app = application
 """
 WSGI config for heard project.
 
