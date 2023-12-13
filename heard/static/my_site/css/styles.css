@@ -1,0 +1,82 @@
+html, body{
+    color: #00538a;
+    margin: 0;
+}
+h1{
+	margin: 40px;
+}
+
+.menu {
+    margin: 0;
+	list-style: none;
+	background: #00538a;
+	height: 60px;
+	padding-left: 20px;
+	color: #75c1ff;
+	font-size: 20px;
+	overflow: hidden;
+}
+.menu-item {
+	float: left;
+	margin: 17px 25px 0px 0px;
+}
+.menu-item.last {float: right;}
+
+.menu-a {
+	transition: 0.5s;
+	color: #75c1ff;
+	text-decoration: none;
+	padding: 8px 10px;
+    letter-spacing: 0.27em;
+}
+.menu-a:hover {
+	color: #bddffc;
+	border-radius: 10px;
+	text-shadow: 0 0 5px #75c1ff,
+				0 0 10px #75c1ff;
+}
+
+.logo {
+    float: left;
+    margin: 5px 25px 0px 0px;
+    object-fit:fill;
+}
+
+.me_img {
+display: flex;
+float: left;
+height: 700px;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+}
+
+.shadow__btn {
+	display: block;
+	margin-top: 50px;
+	padding: 10px 20px;
+	border: none;
+	font-size: 17px;
+	color: #fff;
+	border-radius: 7px;
+	letter-spacing: 4px;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.5s;
+	transition-property: box-shadow;
+}
+
+.shadow__btn {
+background: #006ab1;
+box-shadow: 0 0 20px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+box-shadow: 0 0 5px rgb(0,140,255),
+			0 0 20px rgb(0,140,255),
+			0 0 30px rgb(0,140,255);
+}
+
+
